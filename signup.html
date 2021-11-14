@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SquareEyes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/28b356bcc2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="squared eyeglasses" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SEARCH</a></li>
+                    <li><a href="">SIGN UP</a></li>
+                    <li><a href="">LOG IN</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars fa-2x" style="color: white" onclick="showMenu()"></i>
+        </nav>
+        <h1>Page under construction</h1>
+    </section>
+    <!--------Create Account-------->
+
+    <!--------Footer-------->
+
+    <footer class="footer">
+        <p class="copyright">© Copyright 2021 - SquareEyes</p>
+    </footer>
+
+    <!--------JavaScript for Toggle Menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
